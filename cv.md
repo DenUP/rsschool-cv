@@ -22,3 +22,20 @@ My goal is to start a career as a Frontend developer.
 - CSS
 - JavaScript (the basics)
 - Adobe Photoshop
+
+## Code example
+
+```
+function multiply(a, b){
+return a \* b
+}
+```
+
+## Courses
+
+RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Languages
+
+- English - A1
+- Russian - Native

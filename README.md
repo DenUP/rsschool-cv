@@ -1,3 +1,1 @@
-# rsschool-cv
-
-https://DenUP.github.io/rsschool-cv/cv
+https://denup.github.io/rsschool-cv/

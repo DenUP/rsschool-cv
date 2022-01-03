@@ -80,11 +80,14 @@ body{
 ul li .icon{
 	width: 35px;
 	height: 35px;
-	background: #fff;
-	color: #233A5F; 
+	color: #fff; 
 	padding: 10px;
 	border-radius: 50%;
 }
+.border .icon{
+	color: #233A5F;
+}
+
 .border{
     background: #E5E5E5;
     color: #233A5F;

@@ -4,3 +4,38 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #233A5F;
+
+}
+.nav__list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+}
+.nav a{
+	display: flex;
+	padding: 10px;
+	text-align: center;
+  color: #fff
+}
+.left-side{
+	width: 100%;
+	color: white;
+	background-color: #233A5F;
+}
+.right-side{
+	width: 100%;
+	color: #233A5F;
+	background-color: white;
+}

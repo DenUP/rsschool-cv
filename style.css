@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color: #E5E5E5;
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555
+}
+.bold{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.semi_bold{
+	font-weight: 500;
+	font-size: 16px;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #233A5F;
+
+}
+.nav__list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+}
+.nav a{
+	display: flex;
+	padding: 10px;
+	text-align: center;
+  color: #fff
+}
+.container{
+	width: 800px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+	margin-bottom: 10px
+}
+.container .left-side{
+	width: 280px;
+	color: white;
+	background-color: #233A5F;
+}
+
+.resume-profile{
+	width: 100%;
+	height: 240px;
+}
+
+.img-ava{
+	width: 100%;
+	height: 100%;
+		
+}
+.resume-content{
+	padding: 0 25px;
+}
+.container .title{
+	margin-bottom: 20px;
+}
+.resume-item{
+	padding: 25px 0;
+	border-bottom: 2px solid;
+}
+.resume-item ul li{
+	display: flex;
+	align-items: center	;
+	margin-bottom: 10px;
+}
+ul li .icon{
+	width: 35px;
+	height: 35px;
+	color: #fff; 
+	padding: 10px;
+	border-radius: 50%;
+}
+.border .icon{
+	color: #233A5F;
+}
+
+.border{
+    background: #E5E5E5;
+    color: #233A5F;
+    border-radius: 5px;
+    padding: 5px;
+}
+.right-side{
+	width: 100%;
+	color: #233A5F;
+	background-color: white;
+}
+.right-container{
+	margin: 35px;
+}
+.title-right{
+	display: flex;
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+hr{
+	border: none; /* Убираем границу */
+    background-color: #233A5F; /* Цвет линии */
+    color: #233A5F; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+		align: left;
+		width:10%;
+		margin-bottom: 12px;
+}
+.description{
+	display: flex;
+	color: #878787;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.languages-img {
+
+width: 10%;
+text-align: left;
+position: absolute;
+}
+
+.languages-text {
+
+	width: 60%;
+  padding-left: 50px;
+}
+pre{
+	margin-top: 20px;
+	padding-left: 30px;
+	font-family: monospace;
+	font-size: 0.9rem;
+	background-color: #f5f5f5;
+}
+.footer{
+	color: white;
+	background-color: #233A5F;
+    width: 800px;
+    display: flex;
+    height: auto;
+    margin: auto;
+		justify-content: space-between;
+}
+.img_rsschool{
+	width: 100px;
+	
+}
+.img_project{
+	width: 470px;
+}
+.img_github{
+	width: 100px;
+}
